@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import "../styles/HeroSection.css";
-import { FaBars, FaTimes } from "react-icons/fa";
-import { BiDownload } from "react-icons/bi";
+import { FaBars, FaTimes, FaFolderOpen } from "react-icons/fa";
 import { AiOutlineArrowUp } from "react-icons/ai";
-import { animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll, scroller } from "react-scroll";
 import { motion } from "framer-motion";
-import CV from "../data/Peace Jinadu-Paul Resume.pdf";
 
 const HeroSection = ({ nav, handleNav }) => {
 	const scrollToTop = () => {
@@ -68,6 +66,15 @@ const HeroSection = ({ nav, handleNav }) => {
 		},
 	};
 
+	const scrollToWorks = () => {
+		scroller.scrollTo("works", {
+			duration: 800,
+			delay: 0,
+			smooth: "easeInOutQuart",
+			offset: -50,
+		});
+	};
+
 	return (
 		<div className='hero-section' name='home' id='home'>
 			<div className='hero-overlay'></div>
@@ -94,7 +101,7 @@ const HeroSection = ({ nav, handleNav }) => {
 				whileInView='visible'
 				className='hero-content'>
 				<p className='hero-intro'>
-					<span>Peace</span> <span>Jinadu-Paul.</span>
+					<span>James Miller</span>
 				</p>
 				<p className='hero-desc'>
 					I'm a <span className='hero-desc-sub'>Front End Developer.</span>
@@ -104,9 +111,9 @@ const HeroSection = ({ nav, handleNav }) => {
 				variants={contactVariants}
 				initial='hidden'
 				whileInView='visible'>
-				<a href={CV} download='Peace Jinadu-Paul CV' className='hero-contact'>
-					Download CV <BiDownload className='cv-icon' />
-				</a>
+				<button type="button" className='hero-contact' onClick={scrollToWorks}>
+					Projects <FaFolderOpen className='cv-icon' />
+				</button>
 			</motion.span>
 		</div>
 	);

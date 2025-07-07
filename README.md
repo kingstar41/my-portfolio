@@ -2,7 +2,6 @@
 	<h1> My Portfolio </h1>
 </div>
 
-
 ## Tech Stack ✨
 
 - [React.js](https://reactjs.org/) - UI Library

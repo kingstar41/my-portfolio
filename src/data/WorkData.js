@@ -1,45 +1,10 @@
 export const ReactData = [
-	// {
-	// 	title: "Cerebrio",
-	// 	desc: "An innovative AI chat app which provides an intelligent and interactive chat experience",
-	// 	tech: [
-	// 		"React.js",
-	// 		"Generative-AI",
-	// 		"APIs",
-	// 		"TailwindCss",
-	// 		"Firebase",
-	// 		"Context API",
-	// 	],
-	// 	gitlink: "",
-	// 	site: "//cerebrio-ai.vercel.app/",
-	// },
-	{
-		title: "The Movie Hub",
-		desc: "A movie app for discovering new movies",
-		tech: ["React.js", "Axios", "APIs", "TailwindCss", "Material UI"],
-		gitlink: "//github.com/Pappyjay23/the-movie-hub",
-		site: "//the-movie-hub-v1.netlify.app",
-	},
 	{
 		title: "Titan",
 		desc: "A web app to customize your 3D car model",
 		tech: ["React.js", "ThreeJs", "TailwindCss"],
 		gitlink: "//github.com/Pappyjay23/Titan",
 		site: "//titan-motors.vercel.app/",
-	},
-	{
-		title: "Netflix Clone",
-		desc: "A movie app using the netflix UI with a touch of creativity.",
-		tech: [
-			"React.js",
-			"Firebase",
-			"TailwindCss",
-			"APIs",
-			"Axios",
-			"Context API",
-		],
-		gitlink: "//github.com/Pappyjay23/netflix-clone",
-		site: "//netflix-vp.vercel.app",
 	},
 	{
 		title: "Todo App",
@@ -54,6 +19,27 @@ export const ReactData = [
 		tech: ["React.js", "TailwindCss", "Framer Motion"],
 		gitlink: "//github.com/Pappyjay23/Digitaly",
 		site: "//digitaly.netlify.app/",
+	},
+	{
+		title: "E-Commerce Platform",
+		desc: "A full-featured online shopping platform with cart and payment integration",
+		tech: ["React.js", "Redux", "Stripe", "Node.js"],
+		gitlink: "//github.com/Pappyjay23/ecommerce-platform",
+		site: "//ecommerce-demo.vercel.app/",
+	},
+	{
+		title: "Weather Dashboard",
+		desc: "Real-time weather information with interactive maps and forecasts",
+		tech: ["React.js", "OpenWeather API", "Chart.js", "Material-UI"],
+		gitlink: "//github.com/Pappyjay23/weather-dashboard",
+		site: "//weather-dashboard-demo.netlify.app/",
+	},
+	{
+		title: "Task Management System",
+		desc: "Collaborative project management tool with real-time updates",
+		tech: ["React.js", "Socket.io", "MongoDB", "Express"],
+		gitlink: "//github.com/Pappyjay23/task-manager",
+		site: "//task-manager-demo.herokuapp.com/",
 	},
 ];
 
@@ -88,6 +74,27 @@ export const VueData = [
 		gitlink: "",
 		site: "//mini-unsplash-clone.vercel.app/",
 	},
+	{
+		title: "Recipe Finder",
+		desc: "Discover and save your favorite recipes with nutritional information",
+		tech: ["Vue.js", "Vuex", "Spoonacular API", "Vuetify"],
+		gitlink: "//github.com/Pappyjay23/recipe-finder",
+		site: "//recipe-finder-vue.netlify.app/",
+	},
+	{
+		title: "Budget Tracker",
+		desc: "Personal finance management app with expense categorization and reports",
+		tech: ["Vue.js", "Chart.js", "LocalStorage", "Vue Router"],
+		gitlink: "//github.com/Pappyjay23/budget-tracker",
+		site: "//budget-tracker-vue.vercel.app/",
+	},
+	{
+		title: "Social Media Dashboard",
+		desc: "Analytics dashboard for social media management and insights",
+		tech: ["Vue.js", "D3.js", "Vuex", "Tailwind CSS"],
+		gitlink: "//github.com/Pappyjay23/social-dashboard",
+		site: "//social-dashboard-vue.netlify.app/",
+	},
 ];
 
 export const ReactNativeData = [
@@ -103,5 +110,40 @@ export const ReactNativeData = [
 		],
 		gitlink: "//github.com/Pappyjay23/Serenify",
 		app: "//drive.google.com/uc?export=download&id=1WGhO4zmFH6C05_PY9C5CYYEUVNCNVRHJ",
+	},
+	{
+		title: "Fitness Tracker",
+		desc: "Comprehensive fitness tracking app with workout plans and progress monitoring",
+		tech: ["React Native", "Expo", "AsyncStorage", "React Native Charts"],
+		gitlink: "//github.com/Pappyjay23/fitness-tracker",
+		app: "//drive.google.com/uc?export=download&id=fitness-tracker-app-id",
+	},
+	{
+		title: "Food Delivery App",
+		desc: "Restaurant food ordering and delivery tracking application",
+		tech: ["React Native", "Redux", "Google Maps API", "Stripe"],
+		gitlink: "//github.com/Pappyjay23/food-delivery-app",
+		app: "//drive.google.com/uc?export=download&id=food-delivery-app-id",
+	},
+	{
+		title: "Language Learning",
+		desc: "Interactive language learning app with gamified lessons and progress tracking",
+		tech: ["React Native", "Expo", "SQLite", "React Native Audio"],
+		gitlink: "//github.com/Pappyjay23/language-learning",
+		app: "//drive.google.com/uc?export=download&id=language-app-id",
+	},
+	{
+		title: "Travel Companion",
+		desc: "Travel planning and itinerary management app with offline maps",
+		tech: ["React Native", "Expo", "React Native Maps", "AsyncStorage"],
+		gitlink: "//github.com/Pappyjay23/travel-companion",
+		app: "//drive.google.com/uc?export=download&id=travel-app-id",
+	},
+	{
+		title: "Event Organizer",
+		desc: "Event creation and management app with ticket sales and attendee tracking",
+		tech: ["React Native", "Firebase", "QR Code Scanner", "Push Notifications"],
+		gitlink: "//github.com/Pappyjay23/event-organizer",
+		app: "//drive.google.com/uc?export=download&id=event-app-id",
 	},
 ];
