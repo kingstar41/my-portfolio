@@ -101,10 +101,10 @@ const Contact = () => {
 								<p>Say Hello</p>
 								<a
 									className='hello-links'
-									href='mailto:kingstar9941@proton.me'
+									href='mailto:jamesmiller9572@proton.me'
 									target='_blank'
 									rel='noreferrer'>
-									kingstar9941@proton.me
+									jamesmiller9572@proton.me
 								</a>
 							</div>
 						</motion.div>

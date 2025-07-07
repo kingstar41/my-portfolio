@@ -56,7 +56,7 @@ const Navbar = ({ nav, handleNav }) => {
 							onClick={handleNav}
 							to='home'
 							className='profile-name'>
-							Zef Lako
+							James Miller
 						</Link>
 						<NavLinks handleNav={handleNav} />
 					</div>
