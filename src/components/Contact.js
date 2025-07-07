@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "../styles/Contact.css";
@@ -100,18 +99,12 @@ const Contact = () => {
 							</div>
 							<div className='contact-hello'>
 								<p>Say Hello</p>
-								<Link
-									className='hello-links'
-									to='//wa.me/+2348060860565'
-									target='_blank'>
-									wa.me/pappyjay23
-								</Link>
 								<a
 									className='hello-links'
-									href='mailto:pjinadu02@gmail.com'
+									href='mailto:kingstar9941@proton.me'
 									target='_blank'
 									rel='noreferrer'>
-									pjinadu02@gmail.com
+									kingstar9941@proton.me
 								</a>
 							</div>
 						</motion.div>

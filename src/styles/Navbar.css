@@ -4,16 +4,16 @@
 	color: var(--white);
 	position: fixed;
 	top: 0;
-	left: -100%;
+	right: -100%;
 	bottom: 0;
 	opacity: 0;
 	overflow-y: scroll;
-	transition: all 0.5s ease-in-out;
+	transition: all 0.3s ease-in-out;
 	z-index: 99999;
 }
 
 .navbar.active {
-	left: 0;
+	right: 0;
 	opacity: 1;
 }
 
@@ -23,6 +23,7 @@
 
 .navbar-container {
 	padding: 1rem 1.5rem;
+	position: relative;
 }
 
 .top-details {
@@ -41,6 +42,10 @@
 	align-items: center;
 	object-fit: cover;
     object-position: bottom;
+}
+
+.img__cover__margin {
+	margin-top: 50px;
 }
 .profile-pic-small {
 	height: 100%;
@@ -136,4 +141,28 @@
 	color: var(--white);
 	font-size: 65%;
 	font-family: "Quicksand", sans-serif;
+}
+
+/* Close button styling */
+.close-nav-btn {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	background: none;
+	border: none;
+	color: var(--white);
+	font-size: 1.5rem;
+	cursor: pointer;
+	padding: 0.5rem;
+	border-radius: 50%;
+	transition: all 0.3s ease-in-out;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.close-nav-btn:hover {
+	background-color: var(--nav-deep-blue);
+	color: var(--nav-blue);
+	transform: scale(1.1);
 }

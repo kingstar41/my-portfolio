@@ -2,6 +2,7 @@ import React from 'react';
 import "../styles/Services.css"
 import {IoColorWandOutline} from "react-icons/io5"
 import {BiCodeAlt} from "react-icons/bi"
+import {FiServer} from "react-icons/fi"
 import { motion } from "framer-motion";
 
 const Services = () => {
@@ -29,8 +30,13 @@ const Services = () => {
                     </div>
                     <div className="services-card">
                         <IoColorWandOutline className='services-icon' />
-                        <p className='services-title'>UI Design</p>
+                        <p className='services-title'>UI / UX Design</p>
                         <p className='services-desc'>I work with certain design tools to create high-fidelity designs and prototypes. I design accessible and usable products which aid business growth.</p>
+                    </div>
+                    <div className="services-card">
+                        <FiServer className='services-icon' />
+                        <p className='services-title'>Deployment & Maintenance</p>
+                        <p className='services-desc'>I provide comprehensive deployment services including cloud hosting, CI/CD pipelines, and ongoing maintenance to ensure your applications run smoothly and stay up-to-date.</p>
                     </div>
                 </motion.div>
               </div>
